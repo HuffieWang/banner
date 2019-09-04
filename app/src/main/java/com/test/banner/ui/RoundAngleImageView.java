@@ -2,7 +2,6 @@ package com.test.banner.ui;
 
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -12,10 +11,11 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.util.AttributeSet;
-import android.widget.ImageView;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 
-public class RoundAngleImageView extends ImageView {
+public class RoundAngleImageView extends AppCompatImageView {
 
     private Paint paint;
     private int roundWidth = 5;

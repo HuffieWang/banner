@@ -4,8 +4,6 @@ import android.content.Context;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.test.banner.ui.GlideRoundTransform;
-import com.test.banner.ui.RoundAngleImageView;
 import com.youth.banner.loader.ImageLoader;
 
 
@@ -17,10 +15,4 @@ public class GlideImageLoader extends ImageLoader {
                 .load(path)
                 .into(imageView);
     }
-
-//    @Override
-//    public ImageView createImageView(Context context) {
-//        //圆角
-//        return new RoundAngleImageView(context);
-//    }
 }
